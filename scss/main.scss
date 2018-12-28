@@ -132,17 +132,18 @@ main {
 }
 
 .boxes {
-    display: grid;
-    grid-gap: 0.7rem;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
 
 
     div {
         font-size: 2rem;
         border: 3px #fff solid;
         padding: 0.5rem 1.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: 3rem;
         @include easeOut;
 
         &:hover {
