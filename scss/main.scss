@@ -65,7 +65,7 @@ main {
         }
     }
 
-    &#home {
+    &.home {
         overflow: hidden;
 
         h1 {
@@ -88,6 +88,8 @@ main {
         margin: auto;
         border-radius: 50%;
         border: $secondary-color 3px solid;
+        height: 180px;
+        width: 180px;
     }
 
     .bio {
