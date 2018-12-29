@@ -93,6 +93,15 @@ main {
     .bio {
         grid-area: bio;
         font-size: 1.5rem;
+
+        .reach {
+
+            &:hover {
+                color: $secondary-color;
+                @include easeOut;
+            }
+
+        }
     }
 
     .job-1 {
